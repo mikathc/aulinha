@@ -6,6 +6,7 @@ print("Usuário:", user)
 print("Senha:", password)
 print("Domínio:", domain)
 
+
 email = user + '@' + domain
 print('Seu e-mail é:', email)
 
