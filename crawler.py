@@ -8,4 +8,3 @@ html_anchieta = r.text
 soup = BeautifulSoup(html_anchieta)
 for elem in soup.find_all('div', class_='elementor-widget-container'):
     print(elem.text)
-
